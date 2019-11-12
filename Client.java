@@ -6,7 +6,7 @@ public class Client
     public static void main(String args[]) throws IOException {
         
         try {
-            Socket socket = new Socket("172.26.0.2", 8080);
+            Socket socket = new Socket("172.28.0.2", 8080);
             System.out.println("socket.isConnected()= " + socket.isConnected());
             socket.close();
         }
